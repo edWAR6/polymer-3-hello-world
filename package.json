@@ -1,0 +1,48 @@
+{
+  "name": "p3-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "flat": true,
+  "scripts": {
+    "build": "./node_modules/webpack/bin/webpack.js"
+  },
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0-pre.6"
+  },
+  "resolutions": {
+    "acorn": "5.3.0",
+    "ajv": "5.5.2",
+    "source-map": "0.6.1",
+    "supports-color": "4.5.0",
+    "yargs": "8.0.2",
+    "inherits": "2.0.3",
+    "minimist": "1.2.0",
+    "punycode": "1.4.1",
+    "hash-base": "3.0.4",
+    "camelcase": "4.1.0",
+    "cliui": "3.2.0",
+    "kind-of": "4.0.0",
+    "is-number": "3.0.0",
+    "string-width": "2.1.1",
+    "strip-ansi": "4.0.0",
+    "is-fullwidth-code-point": "2.0.0",
+    "ansi-regex": "3.0.0",
+    "assert-plus": "1.0.0",
+    "extsprintf": "1.4.0",
+    "debug": "3.1.0",
+    "pify": "3.0.0",
+    "babylon": "6.18.0",
+    "chalk": "2.3.0",
+    "ansi-styles": "3.2.0",
+    "jsesc": "2.5.1",
+    "globals": "11.2.0",
+    "to-fast-properties": "2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.38",
+    "@babel/preset-env": "^7.0.0-beta.38",
+    "babel-loader": "8.0.0-beta.0",
+    "webpack": "^3.10.0"
+  }
+}
