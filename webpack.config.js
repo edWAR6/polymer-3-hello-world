@@ -9,6 +9,10 @@ module.exports = {
   module: {
     loaders: [
       {
+        test: /\.html$/,
+        use: 'html-loader',
+      },
+      {
         test: /\.js$/,
         use: 'babel-loader',
       },

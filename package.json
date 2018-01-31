@@ -5,9 +5,12 @@
   "license": "MIT",
   "flat": true,
   "scripts": {
-    "build": "./node_modules/webpack/bin/webpack.js"
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "serve": "serve"
   },
   "dependencies": {
+    "@polymer/app-layout": "PolymerElements/app-layout#3.0-preview",
+    "@polymer/paper-styles": "PolymerElements/paper-styles#3.0-preview",
     "@polymer/polymer": "^3.0.0-pre.6"
   },
   "resolutions": {
@@ -37,12 +40,19 @@
     "ansi-styles": "3.2.0",
     "jsesc": "2.5.1",
     "globals": "11.2.0",
-    "to-fast-properties": "2.0.0"
+    "to-fast-properties": "2.0.0",
+    "@polymer/polymer": "3.0.0-pre.7",
+    "uglifyjs-webpack-plugin": "1.1.8",
+    "pump": "2.0.1",
+    "commander": "2.13.0",
+    "uglify-js": "3.3.9"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.38",
     "@babel/preset-env": "^7.0.0-beta.38",
     "babel-loader": "8.0.0-beta.0",
+    "html-loader": "^0.5.5",
+    "uglifyjs-webpack-plugin": "^1.1.8",
     "webpack": "^3.10.0"
   }
 }
